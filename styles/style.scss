@@ -3,7 +3,8 @@
 @import "./header";
 
 .contact button {
-    @include flexCenter(row, blue);
+    background: $primaryBtn;
 }
+   
 
 //Importing different files help orginaze code and easier to read
