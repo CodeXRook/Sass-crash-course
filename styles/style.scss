@@ -1,11 +1,9 @@
 //CAN HAVE VARIABLES
-$primaryBtn: rgb(182, 85, 153);
-$textColor: rgb(103, 52, 252);
-
+@import"./variables";
 @import"./header";
 
 .contact button {
     background: $primaryBtn;
 }
 
-//CAN BE NESTED
+
