@@ -1,14 +1,13 @@
-@mixin flexCenter{
+@mixin flexCenter($direction, $background) {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: $direction;
+    background: $backgound;
 }
 
 header { 
-
-    @include flexCenter();
-
-    background: lightblue; 
+    @include flexCenter(column ,red);
     height: 100vh;
     color: $textColor;
     button {

@@ -1,9 +1,9 @@
 //CAN HAVE VARIABLES
-@import"./variables";
-@import"./header";
+@import "./variables";
+@import "./header";
 
 .contact button {
-    @include flexCenter();
+    @include flexCenter(row, blue);
 }
 
 //Importing different files help orginaze code and easier to read
