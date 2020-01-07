@@ -5,9 +5,11 @@
 }
 
 header { 
+
+    @include flexCenter();
+
     background: lightblue; 
     height: 100vh;
-    
     color: $textColor;
     button {
         background: $primaryBtn;
