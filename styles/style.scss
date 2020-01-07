@@ -2,7 +2,7 @@
 $primaryBtn: rgb(182, 85, 153);
 $textColor: rgb(103, 52, 252);
 
-
+@import"./header.scss";
 
 .contact button {
     background: $primaryBtn;

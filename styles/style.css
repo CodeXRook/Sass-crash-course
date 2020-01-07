@@ -1,3 +1,22 @@
+header {
+  background: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #6734fc;
+}
+
+header button {
+  background: #b65599;
+}
+
+header button::after {
+  content: "Helllooo";
+}
+
 .contact button {
   background: #b65599;
 }
