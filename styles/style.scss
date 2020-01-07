@@ -1,17 +1,23 @@
+//CAN HAVE VARIABLES
 $primaryBtn: rgb(182, 85, 153);
-$textColor: rgb(58, 42, 42);
+$textColor: rgb(103, 52, 252);
 
 header { 
     background: lightblue; 
     display: flex;
     justify-content: center;
     color: $textColor;
+    button {
+        background: $primaryBtn;
+        &:hover{
+            background: red;
+        }
+    }
 }
 
-header button {
-    background: $primaryBtn;
-}
 
 .contact button {
     background: $primaryBtn;
 }
+
+//CAN BE NESTED
